@@ -13,7 +13,7 @@ export default class Content extends Component {
      render() {
           return (
                <div>
-                    <img src="whatsapp.ico" alt="" />
+                    <img src={this.props.log} alt="" />
                     
                     <br /><input className="number" type="number" name="number" id="number" onChange={this.change} />
                     <br />
