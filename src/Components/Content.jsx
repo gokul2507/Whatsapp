@@ -19,7 +19,7 @@ export default class Content extends Component {
                     <br />
                     <a
                       className="App-link"
-                      href={"https://web.whatsapp.com/send?phone=+91"+this.state.value+"&text=Hi"}
+                      href={"https://api.whatsapp.com/send?phone="+this.state.value}
                       target="_blank"
                       rel="noreferrer" 
                     >
